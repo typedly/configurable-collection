@@ -2,6 +2,9 @@
  * Public API Surface of configurable-collection
  */
 
-export {
-
+export type {
+  ConfigurableCollectionAdapter,
+  ConfigurableCollectionAdapterConstructor,
+  ConfigurableCollectionConstructor,
+  ConfigurableCollectionShape,
 } from './lib';
