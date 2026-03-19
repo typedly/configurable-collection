@@ -89,7 +89,7 @@ import {
   ConfigurableCollectionAdapterConstructor,
   // Interface.
   ConfigurableCollectionShape,
-} from '@typedly/collection';
+} from '@typedly/configurable-collection';
 ```
 
 ### Adapter
@@ -99,7 +99,7 @@ import {
 The `ConfigurableCollectionAdapter` interface defines a adapter collection data structure that can be configured based on the provided settings.
 
 ```typescript
-import { ConfigurableCollectionAdapter } from '@typedly/collection';
+import { ConfigurableCollectionAdapter } from '@typedly/configurable-collection';
 ```
 
 ### Constructor
@@ -107,13 +107,13 @@ import { ConfigurableCollectionAdapter } from '@typedly/collection';
 ### `ConfigurableCollectionAdapterConstructor`
 
 ```typescript
-import { ConfigurableCollectionAdapterConstructor } from '@typedly/collection';
+import { ConfigurableCollectionAdapterConstructor } from '@typedly/configurable-collection';
 ```
 
 ### `ConfigurableCollectionConstructor`
 
 ```typescript
-import { ConfigurableCollectionConstructor } from '@typedly/collection';
+import { ConfigurableCollectionConstructor } from '@typedly/configurable-collection';
 ```
 
 ### Main
@@ -123,7 +123,7 @@ import { ConfigurableCollectionConstructor } from '@typedly/collection';
 The shape of configurable collection data structure, which can be implemented by various types of collections such as sets, arrays, or maps.
 
 ```typescript
-import { ConfigurableCollectionShape } from '@typedly/collection';
+import { ConfigurableCollectionShape } from '@typedly/configurable-collection';
 ```
 
 ## Contributing
@@ -214,15 +214,15 @@ MIT © typedly ([license][package-license])
 
 <!-- This package: typedly  -->
   <!-- GitHub: badges -->
-  [package-badge-issues]: https://img.shields.io/github/issues/typedly/collection
-  [package-badge-forks]: https://img.shields.io/github/forks/typedly/collection
-  [package-badge-stars]: https://img.shields.io/github/stars/typedly/collection
-  [package-badge-license]: https://img.shields.io/github/license/typedly/collection
+  [package-badge-issues]: https://img.shields.io/github/issues/typedly/configurable-collection
+  [package-badge-forks]: https://img.shields.io/github/forks/typedly/configurable-collection
+  [package-badge-stars]: https://img.shields.io/github/stars/typedly/configurable-collection
+  [package-badge-license]: https://img.shields.io/github/license/typedly/configurable-collection
   <!-- GitHub: badges links -->
-  [package-issues]: https://github.com/typedly/collection/issues
-  [package-forks]: https://github.com/typedly/collection/network
-  [package-license]: https://github.com/typedly/collection/blob/master/LICENSE
-  [package-stars]: https://github.com/typedly/collection/stargazers
+  [package-issues]: https://github.com/typedly/configurable-collection/issues
+  [package-forks]: https://github.com/typedly/configurable-collection/network
+  [package-license]: https://github.com/typedly/configurable-collection/blob/master/LICENSE
+  [package-stars]: https://github.com/typedly/configurable-collection/stargazers
 <!-- This package -->
 
 <!-- Package: typedly -->
