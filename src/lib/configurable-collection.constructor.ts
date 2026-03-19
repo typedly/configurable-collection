@@ -1,10 +1,10 @@
 // Interface.
-import { CollectionSettings } from "../../lib";
+import { CollectionSettings } from "@typedly/collection";
 import { ConfigurableCollectionShape } from "./configurable-collection.shape";
 import { ConstrainedConstructor } from "@typedly/constructor";
 // Type.
-import { InferCollectionType, InferElement } from "../../inference";
 import { InferAsync } from "@typedly/data";
+import { InferCollectionType, InferElement } from "@typedly/collection";
 import { InferSettings } from "@typedly/configurable-data";
 /**
  * @description The constructor type for `ConfigurableCollection`.

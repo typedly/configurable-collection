@@ -1,9 +1,9 @@
 // Interface.
-import { CollectionSettings } from "../../lib";
+import { CollectionSettings } from "@typedly/collection";
 import { ConfigurableCollectionAdapter } from "./configurable-collection.adapter";
 // Type.
 import { InferAsync } from "@typedly/data";
-import { InferCollectionType, InferElement } from "../../inference";
+import { InferCollectionType, InferElement } from "@typedly/collection";
 import { InferSettings } from "@typedly/configurable-data";
 /**
  * @description The configurable collection adapter constructor type, which defines the structure for creating instances of configurable collection adapters.

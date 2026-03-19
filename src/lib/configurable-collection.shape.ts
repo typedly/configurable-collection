@@ -1,10 +1,9 @@
 // Interface.
-import type { CollectionSettings } from "../../lib/interface/collection.settings";
-import type { CollectionShape } from "../../lib/interface/collection.shape";
+import type { CollectionShape, CollectionSettings } from "@typedly/collection";
 import type { ConfigurableDataShape } from "@typedly/configurable-data";
 // Type.
 import type { InferAsync } from "@typedly/data";
-import type { InferCollectionType, InferElement } from "../../inference";
+import type { InferCollectionType, InferElement } from "@typedly/collection";
 /**
  * @description The shape of configurable collection data structure, which can be implemented by various types of collections such as sets, arrays, or maps.
  * It extends the `CollectionBaseShape` interface, allowing it to inherit collection-specific functionalities while also introducing configurability through the `C` of `CollectionSettings`.
