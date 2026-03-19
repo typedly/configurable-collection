@@ -226,8 +226,8 @@ MIT © typedly ([license][package-license])
 
 <!-- Package: typedly -->
   <!-- npm -->
-  [package-npm-badge-svg]: https://badge.fury.io/js/@typedly%2Fcollection.svg
-  [package-npm-badge]: https://badge.fury.io/js/@typedly%2Fcollection
+  [package-npm-badge-svg]: https://badge.fury.io/js/@typedly%2Fconfigurable-collection.svg
+  [package-npm-badge]: https://badge.fury.io/js/@typedly%2Fconfigurable-collection
 
 <!-- GIT -->
 [git-semver]: http://semver.org/
