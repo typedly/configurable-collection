@@ -64,7 +64,6 @@ A **TypeScript** type definitions package for configurable collections with conf
 ### Collection
 
 - **[@typedly/adaptable-collection](https://github.com/typedly/adaptable-collection)**: A **TypeScript** type definitions package for adaptable data collections with configuration, adapter support based on [`@typedly/configurable-collection`](https://github.com/typedly/configurable-collection).
-- **[@typedly/configurable-collection](https://github.com/typedly/configurable-collection)**: A **TypeScript** type definitions package for configurable collections with configuration based on [`@typedly/collection`](https://github.com/typedly/collection).
 
 ### General
 
