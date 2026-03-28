@@ -9,7 +9,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
-    "@typedly/collection": "^6.0.0"
+    "@typedly/collection": "^6.1.0",
+    "@typedly/configurable-data": "^4.2.0"
   },
   "scripts": {
     "prepublishOnly": "npm install rimraf && npm run pkg && npm run clean",
@@ -18,14 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typedly/collection.git"
+    "url": "git+https://github.com/typedly/configurable-collection.git"
   },
   "bugs": {
-    "url": "https://github.com/typedly/collection/issues"
+    "url": "https://github.com/typedly/configurable-collection/issues"
   },
   "keywords": [
     "@typedly",
     "@typedly/configurable-collection",
+    "Collection with configuration",
+    "Collection",
     "Configurable Collection"
   ],
   "funding": [
