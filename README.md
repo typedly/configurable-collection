@@ -22,7 +22,7 @@
 [![GitHub Sponsors][github-badge-sponsor]][github-sponsor-link]
 [![Patreon Sponsors][patreon-badge]][patreon-link]
 
-A **TypeScript** type definitions package for configurable collections with configuration support based on [`@typedly/collection`](https://github.com/typedly/collection).
+A **TypeScript** type definitions package for configurable collections with configuration based on [`@typedly/collection`](https://github.com/typedly/collection).
 
 ## Features
 
@@ -58,16 +58,19 @@ A **TypeScript** type definitions package for configurable collections with conf
 
 ### Peer dependencies
 
-- **[@typedly/adaptable-data](https://github.com/typedly/adaptable-data)**: A **TypeScript** type definitions package for configurable, composable, trait-driven adaptable data models with adapter support.
 - **[@typedly/collection](https://github.com/typedly/collection)**: A **TypeScript** type definitions package for data collections with customizable storage.
 - **[@typedly/configurable-data](https://github.com/typedly/configurable-data)**: A **TypeScript** type definitions package for configurable, composable, trait-driven data models.
-- **[@typedly/data-traits](https://github.com/typedly/data-traits)**: A **TypeScript** type definitions package for configurable data traits, providing various kinds of configurable data interfaces.
-- **[@typedly/data](https://github.com/typedly/data)**: A **TypeScript** type definitions for [`@typescript-package/data`](https://github.com/typescript-package/data).
+
+### Collection
+
+- **[@typedly/adaptable-collection](https://github.com/typedly/adaptable-collection)**: A **TypeScript** type definitions package for adaptable data collections with configuration, adapter support based on [`@typedly/configurable-collection`](https://github.com/typedly/configurable-collection).
+- **[@typedly/configurable-collection](https://github.com/typedly/configurable-collection)**: A **TypeScript** type definitions package for configurable collections with configuration based on [`@typedly/collection`](https://github.com/typedly/collection).
 
 ### General
 
 - **[@typedly/adaptable-data](https://github.com/typedly/adaptable-data)**: A **TypeScript** type definitions for data adapter.
-- **[@typedly/adaptable-collection](https://github.com/typedly/adaptable-collection)**: A **TypeScript** type definitions package for adaptable collections with configuration and adapter support.
+- **[@typedly/data-traits](https://github.com/typedly/data-traits)**: A **TypeScript** type definitions package for configurable data traits, providing various kinds of configurable data interfaces.
+- **[@typedly/data](https://github.com/typedly/data)**: A **TypeScript** type definitions for [`@typescript-package/data`](https://github.com/typescript-package/data).
 - **[@typescript-package/data](https://github.com/typescript-package/data)**: A lightweight **TypeScript** library for basic data management.
 - **[@typescript-package/collection](https://github.com/typescript-package/collection)**: A lightweight **TypeScript** library for data collection.
 
@@ -105,11 +108,15 @@ import { ConfigurableCollectionAdapter } from '@typedly/configurable-collection'
 
 ### `ConfigurableCollectionAdapterConstructor`
 
+The configurable collection adapter constructor type, which defines the structure for creating instances of configurable collection adapters.
+
 ```typescript
 import { ConfigurableCollectionAdapterConstructor } from '@typedly/configurable-collection';
 ```
 
 ### `ConfigurableCollectionConstructor`
+
+The constructor type for `ConfigurableCollection`.
 
 ```typescript
 import { ConfigurableCollectionConstructor } from '@typedly/configurable-collection';
