@@ -1,6 +1,6 @@
 {
   "name": "@typedly/configurable-collection",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "author": "wwwdev.io <dev@wwwdev.io>",
   "description": "A TypeScript type definitions package for configurable collections with configuration.",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
-    "@typedly/collection": "^6.1.0",
+    "@typedly/collection": "^6.2.0",
     "@typedly/configurable-data": "^4.2.1"
   },
   "scripts": {

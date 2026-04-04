@@ -1,5 +1,5 @@
 // Interface.
-import type { CollectionShape, CollectionSettings } from "@typedly/collection";
+import type { CollectionConfig, CollectionShape, CollectionSettings } from "@typedly/collection";
 import type { ConfigurableDataShape } from "@typedly/configurable-data";
 // Type.
 import type { InferAsync } from "@typedly/data";
@@ -22,6 +22,12 @@ export interface ConfigurableCollectionShape<
   E = InferElement<C>,
   R extends boolean = InferAsync<C>
 > extends ConfigurableDataShape<C, T, R>, CollectionShape<T, E, R> {
+  /**
+   * @description The configuration settings for the collection, defining its behavior and structure.
+   * @type {CollectionConfig<C, T, E, R>}
+   */
+  configuration: CollectionConfig<C, T, E, R>;
+
   /**
    * @description Updates the collection's configuration settings and returns a new collection instance with the updated settings.
    * @param {Partial<NC>} settings The new configuration settings for the collection.
