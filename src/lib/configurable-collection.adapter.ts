@@ -9,17 +9,17 @@ import { InferCollectionType } from "@typedly/collection";
  * It extends the `ConfigurableCollectionShape` interface, allowing it to inherit collection-specific functionalities while also supporting configurability through the settings pattern.
  * @export
  * @interface ConfigurableCollectionAdapter
- * @template {CollectionSettings<T, E, R>} C The collection settings type.
+ * @template {CollectionSettings<T, E, S>} C The collection settings type.
  * @template {Iterable<E>} [T=InferCollectionType<C>] The type of the collection inferred from the collection settings or defaults to `unknown` if not specified.
  * @template [E=IterableElement<T>] The element type inferred from the collection type `T`.
- * @template {boolean} [R=InferAsync<C>] The async behavior flag inferred from the collection settings or defaults to `false` if not specified.
- * @extends {ConfigurableCollectionShape<C, T, E, R>}
+ * @template {boolean} [S=InferAsync<C>] The async behavior flag inferred from the collection settings or defaults to `false` if not specified.
+ * @extends {ConfigurableCollectionShape<C, T, E, S>}
  */
 export interface ConfigurableCollectionAdapter<
-  C extends CollectionSettings<T, E, R>,
+  C extends CollectionSettings<T, E, S>,
   T extends Iterable<E> = InferCollectionType<C>,
   E = IterableElement<T>,
-  R extends boolean = InferAsync<C>,
-> extends ConfigurableCollectionShape<C, T, E, R> {
+  S extends boolean = InferAsync<C>,
+> extends ConfigurableCollectionShape<C, T, E, S> {
   readonly version: string;
 }
